@@ -36,6 +36,34 @@ jobs:
           command: |
             bundle exec rails test
 
+  push-to-ecr:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Install AWS CLI
+          command: |
+            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+            unzip awscliv2.zip
+            sudo ./aws/install
+      - run:
+          name: Authenticate with ECR
+          command: |
+            aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin 345762154890.dkr.ecr.us-west-1.amazonaws.com
+      - run:
+          name: Build and Push Rails Docker Image to ECR
+          command: |
+            docker build -t myrailsapp -f Dockerfile .
+            docker tag myrailsapp:latest 345762154890.dkr.ecr.us-west-1.amazonaws.com/myrailsapp:latest
+            docker push 345762154890.dkr.ecr.us-west-1.amazonaws.com/myrailsapp:latest
+      - run:
+          name: Build and Push Nginx Docker Image to ECR
+          command: |
+            docker build -t my-nginx-image -f nginx/Dockerfile ./nginx 
+            docker tag my-nginx-image:latest 345762154890.dkr.ecr.us-west-1.amazonaws.com/my-nginx-image:latest
+            docker push 345762154890.dkr.ecr.us-west-1.amazonaws.com/my-nginx-image:latest
+
+
   deploy:
     docker:
       - image: hashicorp/terraform:1.5.3
@@ -56,6 +84,9 @@ workflows:
   build-and-deploy:
     jobs:
       - build
-      - deploy:
+      - push-to-ecr:
           requires:
             - build
+      - deploy:
+          requires:
+            - push-to-ecr

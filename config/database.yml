@@ -1,0 +1,51 @@
+# default: &default
+#   adapter: mysql2
+#   encoding: utf8
+#   pool: 5
+#   username: root
+#   password: 
+#   host: db
+
+# development:
+#   adapter: mysql2
+#   encoding: utf8
+#   pool: 5
+#   username: root
+#   password: password
+#   host: db
+#   port: 3306
+default: &default
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: db/development.sqlite3
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: mydatabase_test
+  username: root
+  password: password
+  host: 127.0.0.1
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: mydatabase
+  username: admin
+  password: password
+  host: database-1-instance-1.ckgypskbxi5b.us-west-1.rds.amazonaws.com
+
+# production:
+#   <<: *default
+#   adapter: mysql2
+#   encoding: utf8
+#   pool: 5
+#   username: root
+#   database: myapp_production
+#   password: password
+#   host: db
+#   port: 3306

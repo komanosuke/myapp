@@ -1,0 +1,109 @@
+I, [2023-04-12T13:45:53.858057 #13]  INFO -- : [578bd8b3-2e65-4a6f-bb46-ace7acafde4b] Started GET "/" for 192.168.176.1 at 2023-04-12 13:45:53 +0900
+I, [2023-04-12T13:45:53.875627 #8]  INFO -- : [bef130ff-4d95-4f10-89c5-fd2bd13c9a42] Started GET "/" for 192.168.176.1 at 2023-04-12 13:45:53 +0900
+I, [2023-04-12T13:45:53.912175 #13]  INFO -- : [578bd8b3-2e65-4a6f-bb46-ace7acafde4b] Processing by ApplicationController#hello as HTML
+I, [2023-04-12T13:45:53.915323 #8]  INFO -- : [bef130ff-4d95-4f10-89c5-fd2bd13c9a42] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T13:45:53.923025 #13] DEBUG -- : [578bd8b3-2e65-4a6f-bb46-ace7acafde4b]   Rendering text template
+D, [2023-04-12T13:45:53.924052 #8] DEBUG -- : [bef130ff-4d95-4f10-89c5-fd2bd13c9a42]   Rendering text template
+I, [2023-04-12T13:45:53.928916 #8]  INFO -- : [bef130ff-4d95-4f10-89c5-fd2bd13c9a42]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-04-12T13:45:53.930513 #8]  INFO -- : [bef130ff-4d95-4f10-89c5-fd2bd13c9a42] Completed 200 OK in 13ms (Views: 7.0ms | Allocations: 1034)
+I, [2023-04-12T13:45:53.928953 #13]  INFO -- : [578bd8b3-2e65-4a6f-bb46-ace7acafde4b]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-04-12T13:45:53.933150 #13]  INFO -- : [578bd8b3-2e65-4a6f-bb46-ace7acafde4b] Completed 200 OK in 19ms (Views: 11.3ms | Allocations: 1034)
+I, [2023-04-12T13:55:10.747177 #8]  INFO -- : [9d2612af-7f49-43e0-896f-5c438a1e5a8d] Started GET "/" for 192.168.208.1 at 2023-04-12 13:55:10 +0900
+I, [2023-04-12T13:55:10.760173 #8]  INFO -- : [9d2612af-7f49-43e0-896f-5c438a1e5a8d] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T13:55:10.769025 #8] DEBUG -- : [9d2612af-7f49-43e0-896f-5c438a1e5a8d]   Rendering text template
+I, [2023-04-12T13:55:10.771190 #8]  INFO -- : [9d2612af-7f49-43e0-896f-5c438a1e5a8d]   Rendered text template (Duration: 0.0ms | Allocations: 7)
+I, [2023-04-12T13:55:10.772963 #8]  INFO -- : [9d2612af-7f49-43e0-896f-5c438a1e5a8d] Completed 200 OK in 11ms (Views: 4.6ms | Allocations: 1035)
+I, [2023-04-12T14:09:32.992925 #7]  INFO -- : [d4141dc6-0757-4ede-bc70-25021523e85e] Started GET "/" for 192.168.240.1 at 2023-04-12 14:09:32 +0900
+I, [2023-04-12T14:09:33.055257 #7]  INFO -- : [d4141dc6-0757-4ede-bc70-25021523e85e] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:09:33.091144 #7] DEBUG -- : [d4141dc6-0757-4ede-bc70-25021523e85e]   Rendering text template
+I, [2023-04-12T14:09:33.094455 #7]  INFO -- : [d4141dc6-0757-4ede-bc70-25021523e85e]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-04-12T14:09:33.102172 #7]  INFO -- : [d4141dc6-0757-4ede-bc70-25021523e85e] Completed 200 OK in 45ms (Views: 18.2ms | Allocations: 1035)
+I, [2023-04-12T14:25:35.039750 #7]  INFO -- : [428f73d5-27a3-437d-87e7-a5562c626e42] Started GET "/" for 172.18.0.1 at 2023-04-12 14:25:35 +0900
+I, [2023-04-12T14:25:35.077489 #7]  INFO -- : [428f73d5-27a3-437d-87e7-a5562c626e42] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:25:35.090629 #7] DEBUG -- : [428f73d5-27a3-437d-87e7-a5562c626e42]   Rendering text template
+I, [2023-04-12T14:25:35.098259 #7]  INFO -- : [428f73d5-27a3-437d-87e7-a5562c626e42]   Rendered text template (Duration: 0.3ms | Allocations: 7)
+I, [2023-04-12T14:25:35.100727 #7]  INFO -- : [428f73d5-27a3-437d-87e7-a5562c626e42] Completed 200 OK in 21ms (Views: 11.3ms | Allocations: 1035)
+I, [2023-04-12T14:32:00.596815 #14]  INFO -- : [48c253b6-829a-4977-ba08-00e832061d95] Started GET "/" for 172.19.0.1 at 2023-04-12 14:32:00 +0900
+I, [2023-04-12T14:32:00.611489 #14]  INFO -- : [48c253b6-829a-4977-ba08-00e832061d95] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:32:00.618530 #14] DEBUG -- : [48c253b6-829a-4977-ba08-00e832061d95]   Rendering text template
+I, [2023-04-12T14:32:00.624326 #14]  INFO -- : [48c253b6-829a-4977-ba08-00e832061d95]   Rendered text template (Duration: 0.0ms | Allocations: 7)
+I, [2023-04-12T14:32:00.626145 #14]  INFO -- : [48c253b6-829a-4977-ba08-00e832061d95] Completed 200 OK in 13ms (Views: 8.1ms | Allocations: 1035)
+I, [2023-04-12T14:32:28.995061 #14]  INFO -- : [3d1e79d7-6292-4998-adf6-d17c29531073] Started GET "/" for 127.0.0.1 at 2023-04-12 14:32:28 +0900
+I, [2023-04-12T14:32:29.001238 #14]  INFO -- : [3d1e79d7-6292-4998-adf6-d17c29531073] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:32:29.004360 #14] DEBUG -- : [3d1e79d7-6292-4998-adf6-d17c29531073]   Rendering text template
+I, [2023-04-12T14:32:29.005722 #14]  INFO -- : [3d1e79d7-6292-4998-adf6-d17c29531073]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+I, [2023-04-12T14:32:29.007094 #14]  INFO -- : [3d1e79d7-6292-4998-adf6-d17c29531073] Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 356)
+I, [2023-04-12T14:32:29.240977 #14]  INFO -- : [26b20eb3-fe6d-4854-98bb-1642f6b311f8] Started GET "/favicon.ico" for 127.0.0.1 at 2023-04-12 14:32:29 +0900
+F, [2023-04-12T14:32:29.243564 #14] FATAL -- : [26b20eb3-fe6d-4854-98bb-1642f6b311f8]   
+[26b20eb3-fe6d-4854-98bb-1642f6b311f8] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[26b20eb3-fe6d-4854-98bb-1642f6b311f8]   
+I, [2023-04-12T14:32:31.648153 #10]  INFO -- : [53d63385-55f8-4811-aa63-5ec9ed9b2d36] Started GET "/" for 127.0.0.1 at 2023-04-12 14:32:31 +0900
+I, [2023-04-12T14:32:31.655620 #10]  INFO -- : [53d63385-55f8-4811-aa63-5ec9ed9b2d36] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:32:31.664257 #10] DEBUG -- : [53d63385-55f8-4811-aa63-5ec9ed9b2d36]   Rendering text template
+I, [2023-04-12T14:32:31.666982 #10]  INFO -- : [53d63385-55f8-4811-aa63-5ec9ed9b2d36]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-04-12T14:32:31.669346 #10]  INFO -- : [53d63385-55f8-4811-aa63-5ec9ed9b2d36] Completed 200 OK in 12ms (Views: 6.3ms | Allocations: 1035)
+I, [2023-04-12T14:32:32.301028 #10]  INFO -- : [c23c31b4-d3e9-4e08-9e0a-2dd03c77ebac] Started GET "/" for 127.0.0.1 at 2023-04-12 14:32:32 +0900
+I, [2023-04-12T14:32:32.307289 #10]  INFO -- : [c23c31b4-d3e9-4e08-9e0a-2dd03c77ebac] Processing by ApplicationController#hello as HTML
+D, [2023-04-12T14:32:32.327002 #10] DEBUG -- : [c23c31b4-d3e9-4e08-9e0a-2dd03c77ebac]   Rendering text template
+I, [2023-04-12T14:32:32.331819 #10]  INFO -- : [c23c31b4-d3e9-4e08-9e0a-2dd03c77ebac]   Rendered text template (Duration: 0.1ms | Allocations: 1)
+I, [2023-04-12T14:32:32.335793 #10]  INFO -- : [c23c31b4-d3e9-4e08-9e0a-2dd03c77ebac] Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 356)
+D, [2023-07-22T08:37:47.683865 #1] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `` DEFAULT CHARACTER SET `utf8`[0m
+D, [2023-07-22T08:49:21.927209 #1] DEBUG -- :   [1m[35m (5.4ms)[0m  [1m[35mCREATE DATABASE `root` DEFAULT CHARACTER SET `utf8`[0m
+I, [2023-07-22T08:50:09.579548 #11]  INFO -- : [832e2496-72ae-4453-bf62-de516b097e0b] Started GET "/posts" for 127.0.0.1 at 2023-07-22 08:50:09 +0900
+F, [2023-07-22T08:50:09.583588 #11] FATAL -- : [832e2496-72ae-4453-bf62-de516b097e0b]   
+[832e2496-72ae-4453-bf62-de516b097e0b] ActionController::RoutingError (No route matches [GET] "/posts"):
+[832e2496-72ae-4453-bf62-de516b097e0b]   
+I, [2023-07-22T08:50:09.594731 #8]  INFO -- : [32066e44-f2c6-4063-8147-ad88275b3e9a] Started GET "/" for 127.0.0.1 at 2023-07-22 08:50:09 +0900
+I, [2023-07-22T08:50:09.608029 #8]  INFO -- : [32066e44-f2c6-4063-8147-ad88275b3e9a] Processing by ApplicationController#hello as HTML
+D, [2023-07-22T08:50:09.620695 #8] DEBUG -- : [32066e44-f2c6-4063-8147-ad88275b3e9a]   Rendering text template
+I, [2023-07-22T08:50:09.622539 #8]  INFO -- : [32066e44-f2c6-4063-8147-ad88275b3e9a]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-07-22T08:50:09.624225 #8]  INFO -- : [32066e44-f2c6-4063-8147-ad88275b3e9a] Completed 200 OK in 14ms (Views: 4.0ms | Allocations: 959)
+I, [2023-07-22T17:30:37.964588 #10]  INFO -- : [b93e4481-909b-430b-8e2b-f3c6c9224c10] Started GET "/" for 127.0.0.1 at 2023-07-22 17:30:37 +0900
+I, [2023-07-22T17:30:37.991149 #10]  INFO -- : [b93e4481-909b-430b-8e2b-f3c6c9224c10] Processing by ApplicationController#hello as HTML
+D, [2023-07-22T17:30:38.004860 #10] DEBUG -- : [b93e4481-909b-430b-8e2b-f3c6c9224c10]   Rendering text template
+I, [2023-07-22T17:30:38.011839 #10]  INFO -- : [b93e4481-909b-430b-8e2b-f3c6c9224c10]   Rendered text template (Duration: 0.1ms | Allocations: 7)
+I, [2023-07-22T17:30:38.014678 #10]  INFO -- : [b93e4481-909b-430b-8e2b-f3c6c9224c10] Completed 200 OK in 21ms (Views: 10.4ms | Allocations: 959)
+D, [2023-07-22T20:32:15.122280 #1] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `myapp_production` DEFAULT CHARACTER SET `utf8`[0m
+D, [2023-07-22T20:39:48.950685 #1] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE `myapp_production` DEFAULT CHARACTER SET `utf8`[0m
+D, [2023-07-22T21:43:21.438135 #1] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `myapp_production` DEFAULT CHARACTER SET `utf8`[0m
+D, [2023-07-22T21:52:35.553472 #1] DEBUG -- :   [1m[35m (303.8ms)[0m  [1m[35mCREATE DATABASE `myapp_production` DEFAULT CHARACTER SET `utf8`[0m
+I, [2023-07-22T21:53:39.978183 #9]  INFO -- : [03c9d14f-7139-4a90-b2dc-5590305b09d3] Started GET "/" for 127.0.0.1 at 2023-07-22 21:53:39 +0900
+I, [2023-07-22T21:53:39.993144 #9]  INFO -- : [03c9d14f-7139-4a90-b2dc-5590305b09d3] Processing by ApplicationController#hello as HTML
+D, [2023-07-22T21:53:40.012157 #9] DEBUG -- : [03c9d14f-7139-4a90-b2dc-5590305b09d3]   Rendering text template
+I, [2023-07-22T21:53:40.019192 #9]  INFO -- : [03c9d14f-7139-4a90-b2dc-5590305b09d3]   Rendered text template (Duration: 0.0ms | Allocations: 7)
+I, [2023-07-22T21:53:40.021159 #9]  INFO -- : [03c9d14f-7139-4a90-b2dc-5590305b09d3] Completed 200 OK in 26ms (Views: 10.9ms | Allocations: 959)
+I, [2023-07-23T10:04:51.056041 #7]  INFO -- : [a4920020-9414-4e53-88de-64f73ebc7c1a] Started GET "/" for 127.0.0.1 at 2023-07-23 10:04:51 +0900
+I, [2023-07-23T10:04:51.088835 #7]  INFO -- : [a4920020-9414-4e53-88de-64f73ebc7c1a] Processing by ApplicationController#hello as HTML
+D, [2023-07-23T10:04:51.105397 #7] DEBUG -- : [a4920020-9414-4e53-88de-64f73ebc7c1a]   Rendering text template
+I, [2023-07-23T10:04:51.108745 #7]  INFO -- : [a4920020-9414-4e53-88de-64f73ebc7c1a]   Rendered text template (Duration: 0.2ms | Allocations: 7)
+I, [2023-07-23T10:04:51.111606 #7]  INFO -- : [a4920020-9414-4e53-88de-64f73ebc7c1a] Completed 200 OK in 21ms (Views: 9.6ms | Allocations: 959)
+I, [2023-07-23T10:04:56.746502 #7]  INFO -- : [a64f0853-1fe7-4f2f-a490-6a0f9a6bb5cf] Started GET "/" for 127.0.0.1 at 2023-07-23 10:04:56 +0900
+I, [2023-07-23T10:04:56.749410 #7]  INFO -- : [a64f0853-1fe7-4f2f-a490-6a0f9a6bb5cf] Processing by ApplicationController#hello as HTML
+D, [2023-07-23T10:04:56.751678 #7] DEBUG -- : [a64f0853-1fe7-4f2f-a490-6a0f9a6bb5cf]   Rendering text template
+I, [2023-07-23T10:04:56.753069 #7]  INFO -- : [a64f0853-1fe7-4f2f-a490-6a0f9a6bb5cf]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+I, [2023-07-23T10:04:56.754765 #7]  INFO -- : [a64f0853-1fe7-4f2f-a490-6a0f9a6bb5cf] Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 283)
+I, [2023-07-23T10:31:42.660803 #7]  INFO -- : [ecd4fdd6-acdf-40cf-945f-3fcb955b5b80] Started GET "/" for 127.0.0.1 at 2023-07-23 10:31:42 +0900
+I, [2023-07-23T10:31:42.685669 #7]  INFO -- : [ecd4fdd6-acdf-40cf-945f-3fcb955b5b80] Processing by ApplicationController#hello as HTML
+D, [2023-07-23T10:31:42.702564 #7] DEBUG -- : [ecd4fdd6-acdf-40cf-945f-3fcb955b5b80]   Rendering text template
+I, [2023-07-23T10:31:42.706426 #7]  INFO -- : [ecd4fdd6-acdf-40cf-945f-3fcb955b5b80]   Rendered text template (Duration: 0.4ms | Allocations: 7)
+I, [2023-07-23T10:31:42.708657 #7]  INFO -- : [ecd4fdd6-acdf-40cf-945f-3fcb955b5b80] Completed 200 OK in 19ms (Views: 7.2ms | Allocations: 959)
+I, [2023-07-23T10:35:28.154298 #7]  INFO -- : [adb7ff06-85bb-45aa-820a-be7a09afabf0] Started GET "/" for 127.0.0.1 at 2023-07-23 10:35:28 +0900
+I, [2023-07-23T10:35:28.173596 #7]  INFO -- : [adb7ff06-85bb-45aa-820a-be7a09afabf0] Processing by ApplicationController#hello as HTML
+D, [2023-07-23T10:35:28.182268 #7] DEBUG -- : [adb7ff06-85bb-45aa-820a-be7a09afabf0]   Rendering text template
+I, [2023-07-23T10:35:28.191600 #7]  INFO -- : [adb7ff06-85bb-45aa-820a-be7a09afabf0]   Rendered text template (Duration: 0.0ms | Allocations: 7)
+I, [2023-07-23T10:35:28.195566 #7]  INFO -- : [adb7ff06-85bb-45aa-820a-be7a09afabf0] Completed 200 OK in 20ms (Views: 13.8ms | Allocations: 959)
+I, [2023-07-23T10:57:34.540532 #14]  INFO -- : [876b5c54-d38b-459b-b483-8c03266ab700] Started GET "/" for 127.0.0.1 at 2023-07-23 10:57:34 +0900
+I, [2023-07-23T10:57:34.568945 #14]  INFO -- : [876b5c54-d38b-459b-b483-8c03266ab700] Processing by ApplicationController#hello as HTML
+D, [2023-07-23T10:57:34.578043 #14] DEBUG -- : [876b5c54-d38b-459b-b483-8c03266ab700]   Rendering text template
+I, [2023-07-23T10:57:34.579236 #14]  INFO -- : [876b5c54-d38b-459b-b483-8c03266ab700]   Rendered text template (Duration: 0.0ms | Allocations: 7)
+I, [2023-07-23T10:57:34.580663 #14]  INFO -- : [876b5c54-d38b-459b-b483-8c03266ab700] Completed 200 OK in 10ms (Views: 4.1ms | Allocations: 958)
+I, [2023-07-24T00:13:17.365378 #14]  INFO -- : [c844b9a7-6317-47ed-8193-fff8fd71c580] Started GET "/" for 172.17.0.1 at 2023-07-24 00:13:17 +0000
+I, [2023-07-24T00:13:17.412426 #14]  INFO -- : [c844b9a7-6317-47ed-8193-fff8fd71c580] Processing by ApplicationController#hello as HTML
+D, [2023-07-24T00:13:17.446987 #14] DEBUG -- : [c844b9a7-6317-47ed-8193-fff8fd71c580]   Rendering text template
+I, [2023-07-24T00:13:17.447731 #14]  INFO -- : [c844b9a7-6317-47ed-8193-fff8fd71c580]   Rendered text template (Duration: 0.1ms | Allocations: 8)
+I, [2023-07-24T00:13:17.448644 #14]  INFO -- : [c844b9a7-6317-47ed-8193-fff8fd71c580] Completed 200 OK in 36ms (Views: 3.9ms | Allocations: 1022)
+I, [2023-07-24T00:13:26.966314 #14]  INFO -- : [3be87e5e-4b38-4215-964f-7808907bfee1] Started GET "/" for 172.17.0.1 at 2023-07-24 00:13:26 +0000
+I, [2023-07-24T00:13:26.977661 #14]  INFO -- : [3be87e5e-4b38-4215-964f-7808907bfee1] Processing by ApplicationController#hello as HTML
+D, [2023-07-24T00:13:26.982712 #14] DEBUG -- : [3be87e5e-4b38-4215-964f-7808907bfee1]   Rendering text template
+I, [2023-07-24T00:13:26.983069 #14]  INFO -- : [3be87e5e-4b38-4215-964f-7808907bfee1]   Rendered text template (Duration: 0.1ms | Allocations: 1)
+I, [2023-07-24T00:13:26.983842 #14]  INFO -- : [3be87e5e-4b38-4215-964f-7808907bfee1] Completed 200 OK in 6ms (Views: 2.0ms | Allocations: 336)

@@ -1,0 +1,1293 @@
+I, [2023-04-12T11:15:05.979395 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:15:05.984486 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:15:05.985756 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:15:05.988044 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:15:05.988824 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T11:15:05.990458 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:05.990384 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:15:05.990938 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T11:15:05.993107 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:05.994318 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:15:05.996611 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:15:05.995064 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T11:15:05.997867 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T11:15:06.000281 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:05.999168 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:05.999639 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:15:06.004546 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:15:06.007065 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T11:15:06.000715 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T11:15:06.008571 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:15:06.013750 #1]  INFO -- : master process ready
+I, [2023-04-12T11:15:06.008920 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:06.010197 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T11:15:06.024140 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:06.011269 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:06.015287 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T11:15:06.039929 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:15:15.967688 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T11:15:15.983037 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T11:15:15.991825 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T11:15:16.022829 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T11:15:16.023930 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T11:15:16.035455 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T11:15:16.043428 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T11:15:16.047843 #11]  INFO -- : worker=4 ready
+ActiveRecord::AdapterNotSpecified: The `development` database is not configured for the `development` environment.
+
+  Available databases configurations are:
+
+  default
+
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/database_configurations.rb:194:in `resolve_symbol_connection'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/database_configurations.rb:144:in `resolve'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/connection_handling.rb:367:in `resolve_config_for_connection'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/connection_handling.rb:51:in `establish_connection'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/railtie.rb:222:in `block (2 levels) in <class:Railtie>'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:71:in `class_eval'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:61:in `with_execution_control'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:66:in `execute_hook'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:51:in `each'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/base.rb:15:in `<main>'
+	/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+	/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+	/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+	/usr/local/bundle/gems/activerecord-6.1.7.3/lib/active_record/query_cache.rb:31:in `run'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/execution_wrapper.rb:28:in `before'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:427:in `block in make_lambda'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:604:in `block (2 levels) in default_terminator'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:603:in `catch'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:603:in `block in default_terminator'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:199:in `block in halting'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:512:in `block in invoke_before'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:512:in `each'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:512:in `invoke_before'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/callbacks.rb:105:in `run_callbacks'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/execution_wrapper.rb:114:in `run!'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/execution_wrapper.rb:77:in `block in run!'
+	<internal:kernel>:90:in `tap'
+	/usr/local/bundle/gems/activesupport-6.1.7.3/lib/active_support/execution_wrapper.rb:74:in `run!'
+	/usr/local/bundle/gems/actionpack-6.1.7.3/lib/action_dispatch/middleware/executor.rb:12:in `call'
+	/usr/local/bundle/gems/actionpack-6.1.7.3/lib/action_dispatch/middleware/static.rb:24:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/sendfile.rb:110:in `call'
+	/usr/local/bundle/gems/actionpack-6.1.7.3/lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+	/usr/local/bundle/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+	/usr/local/bundle/gems/webpacker-5.4.4/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+	/usr/local/bundle/gems/rack-proxy-0.7.6/lib/rack/proxy.rb:87:in `call'
+	/usr/local/bundle/gems/railties-6.1.7.3/lib/rails/engine.rb:539:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/tempfile_reaper.rb:15:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/lint.rb:50:in `_call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/lint.rb:38:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/show_exceptions.rb:23:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/common_logger.rb:38:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/chunked.rb:98:in `call'
+	/usr/local/bundle/gems/rack-2.2.6.4/lib/rack/content_length.rb:17:in `call'
+	/usr/local/bundle/gems/unicorn-6.1.0/lib/unicorn/http_server.rb:634:in `process_client'
+	/usr/local/bundle/gems/unicorn-6.1.0/lib/unicorn/http_server.rb:739:in `worker_loop'
+	/usr/local/bundle/gems/unicorn-6.1.0/lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+	/usr/local/bundle/gems/unicorn-6.1.0/lib/unicorn/http_server.rb:143:in `start'
+	/usr/local/bundle/gems/unicorn-6.1.0/bin/unicorn:128:in `<top (required)>'
+	/usr/local/bundle/bin/unicorn:25:in `load'
+	/usr/local/bundle/bin/unicorn:25:in `<top (required)>'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:58:in `load'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:58:in `kernel_load'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:23:in `run'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli.rb:486:in `exec'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli.rb:31:in `dispatch'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/cli.rb:25:in `start'
+	/usr/local/bundle/gems/bundler-2.3.26/exe/bundle:48:in `block in <top (required)>'
+	/usr/local/bundle/gems/bundler-2.3.26/lib/bundler/friendly_errors.rb:120:in `with_friendly_errors'
+	/usr/local/bundle/gems/bundler-2.3.26/exe/bundle:36:in `<top (required)>'
+	/usr/local/bundle/bin/bundle:25:in `load'
+	/usr/local/bundle/bin/bundle:25:in `<main>'
+192.168.16.1 - - [12/Apr/2023:11:15:34 +0900] "GET / HTTP/1.1" 500 183321 1.9140
+E, [2023-04-12T11:16:34.109601 #1] ERROR -- : worker=5 PID:12 timeout (61s > 60s), killing
+E, [2023-04-12T11:16:34.164575 #1] ERROR -- : reaped #<Process::Status: pid 12 SIGKILL (signal 9)> worker=5
+I, [2023-04-12T11:16:34.166164 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:16:34.170240 #55]  INFO -- : worker=5 spawned pid=55
+I, [2023-04-12T11:16:34.171873 #55]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:16:36.395016 #55]  INFO -- : worker=5 ready
+I, [2023-04-12T11:18:32.914051 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T11:18:32.919178 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T11:18:32.920555 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T11:18:32.924105 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T11:18:32.925403 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T11:18:32.926361 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T11:18:32.927441 #1]  INFO -- : reaped #<Process::Status: pid 55 exit 0> worker=5
+I, [2023-04-12T11:18:33.028793 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T11:18:33.032133 #1]  INFO -- : master complete
+I, [2023-04-12T11:21:28.718636 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:21:28.721264 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:21:28.722362 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:21:28.724310 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:21:28.725345 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T11:21:28.726543 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.726821 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:21:28.729246 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:21:28.727136 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T11:21:28.730651 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T11:21:28.731010 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:21:28.731957 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.735295 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:21:28.733189 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.740549 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T11:21:28.733659 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T11:21:28.736138 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T11:21:28.747399 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.739092 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:21:28.755722 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:21:28.743383 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.746525 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.756435 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T11:21:28.776828 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:28.760563 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T11:21:28.760764 #1]  INFO -- : master process ready
+I, [2023-04-12T11:21:28.840850 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:21:41.928294 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T11:21:41.933799 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T11:21:41.937859 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T11:21:41.934726 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T11:21:41.942264 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T11:21:41.933586 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T11:21:41.945883 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T11:21:41.954114 #8]  INFO -- : worker=1 ready
+192.168.32.1 - - [12/Apr/2023:11:21:44 +0900] "GET / HTTP/1.1" 500 222450 2.8133
+I, [2023-04-12T11:22:32.470274 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T11:22:32.474555 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T11:22:32.476555 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T11:22:32.478350 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T11:22:32.481683 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T11:22:32.484244 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T11:22:32.486019 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T11:22:32.489486 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T11:22:32.493772 #1]  INFO -- : master complete
+I, [2023-04-12T11:27:35.260352 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:27:35.262141 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:27:35.262949 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:27:35.264900 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:27:35.265301 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T11:27:35.266358 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.266906 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:27:35.269091 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:27:35.267654 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T11:27:35.269614 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T11:27:35.271017 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.271897 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.273989 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:27:35.274468 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T11:27:35.276598 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.278172 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:27:35.281214 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:27:35.283153 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T11:27:35.283961 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:27:35.286674 #1]  INFO -- : master process ready
+I, [2023-04-12T11:27:35.283633 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T11:27:35.285417 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.287687 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T11:27:35.291624 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.292373 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:35.293240 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T11:27:35.303963 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:27:53.546598 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T11:27:53.548462 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T11:27:53.549262 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T11:27:53.550623 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T11:27:53.552328 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T11:27:53.561300 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T11:27:53.568702 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T11:27:53.574508 #12]  INFO -- : worker=5 ready
+192.168.48.1 - - [12/Apr/2023:11:27:55 +0900] "GET / HTTP/1.1" 500 222450 1.5295
+E, [2023-04-12T11:28:54.379584 #1] ERROR -- : worker=1 PID:8 timeout (61s > 60s), killing
+E, [2023-04-12T11:28:54.467033 #1] ERROR -- : reaped #<Process::Status: pid 8 SIGKILL (signal 9)> worker=1
+I, [2023-04-12T11:28:54.471642 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:28:54.483881 #58]  INFO -- : worker=1 spawned pid=58
+I, [2023-04-12T11:28:54.489222 #58]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:28:56.856775 #58]  INFO -- : worker=1 ready
+I, [2023-04-12T11:30:45.808603 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T11:30:45.813156 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T11:30:45.814190 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T11:30:45.815301 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T11:30:45.816498 #1]  INFO -- : reaped #<Process::Status: pid 58 exit 0> worker=1
+I, [2023-04-12T11:30:45.918291 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T11:30:45.921573 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T11:30:45.926326 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T11:30:45.929479 #1]  INFO -- : master complete
+I, [2023-04-12T11:33:38.819998 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:33:38.822666 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:33:38.823660 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:33:38.826011 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:33:38.826656 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T11:33:38.828804 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.829096 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:33:38.830284 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T11:33:38.833670 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.834837 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:33:38.836541 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T11:33:38.839261 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.839289 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:33:38.844205 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:33:38.840716 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T11:33:38.846797 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T11:33:38.854951 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:33:38.865849 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:33:38.855806 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T11:33:38.859873 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.862058 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.866414 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T11:33:38.873955 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.868679 #1]  INFO -- : master process ready
+I, [2023-04-12T11:33:38.869564 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T11:33:38.871807 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:38.880224 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:33:54.578877 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T11:33:54.582646 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T11:33:54.589008 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T11:33:54.590232 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T11:33:54.577451 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T11:33:54.583846 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T11:33:54.597572 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T11:33:54.600720 #12]  INFO -- : worker=5 ready
+192.168.80.1 - - [12/Apr/2023:11:33:57 +0900] "GET / HTTP/1.1" 500 222450 2.6559
+I, [2023-04-12T11:34:20.343433 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T11:34:20.535989 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T11:34:20.538719 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T11:34:20.539968 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T11:34:20.541476 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T11:34:20.543453 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T11:34:20.545847 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T11:34:20.547223 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T11:34:20.556881 #1]  INFO -- : master complete
+I, [2023-04-12T11:34:29.473299 #1]  INFO -- : unlinking existing socket=/var/tmp/unicorn.sock
+I, [2023-04-12T11:34:29.474984 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:34:29.477734 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:34:29.479079 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:34:29.482801 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:34:29.483150 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T11:34:29.485240 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:34:29.485307 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.486116 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T11:34:29.487283 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:34:29.490546 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:34:29.488004 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T11:34:29.488826 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.492099 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T11:34:29.492237 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:34:29.493089 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T11:34:29.499591 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:34:29.495123 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.497615 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.500348 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.503350 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:34:29.517174 #1]  INFO -- : master process ready
+I, [2023-04-12T11:34:29.500313 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T11:34:29.526853 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.507839 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T11:34:29.535682 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:29.525315 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T11:34:29.559292 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:34:39.114536 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T11:34:39.121329 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T11:34:39.124241 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T11:34:39.126570 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T11:34:39.129207 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T11:34:39.137078 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T11:34:39.141752 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T11:34:39.229337 #9]  INFO -- : worker=2 ready
+192.168.80.1 - - [12/Apr/2023:11:42:54 +0900] "GET / HTTP/1.1" 500 222450 3.2342
+E, [2023-04-12T11:43:52.974297 #1] ERROR -- : worker=0 PID:7 timeout (61s > 60s), killing
+E, [2023-04-12T11:43:53.974011 #1] ERROR -- : reaped #<Process::Status: pid 7 SIGKILL (signal 9)> worker=0
+I, [2023-04-12T11:43:53.976921 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:43:53.996142 #75]  INFO -- : worker=0 spawned pid=75
+I, [2023-04-12T11:43:54.000189 #75]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:43:56.901557 #75]  INFO -- : worker=0 ready
+I, [2023-04-12T11:49:11.399940 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T11:49:11.590928 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T11:49:11.592520 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T11:49:11.593560 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T11:49:11.595945 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T11:49:11.599447 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T11:49:11.600687 #1]  INFO -- : reaped #<Process::Status: pid 75 exit 0> worker=0
+I, [2023-04-12T11:49:11.802670 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T11:49:11.805636 #1]  INFO -- : master complete
+I, [2023-04-12T11:51:55.691048 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T11:51:55.692852 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T11:51:55.693779 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:51:55.696811 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T11:51:55.697317 #8]  INFO -- : worker=0 spawned pid=8
+I, [2023-04-12T11:51:55.698934 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.698937 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T11:51:55.703740 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T11:51:55.699231 #9]  INFO -- : worker=1 spawned pid=9
+I, [2023-04-12T11:51:55.706004 #10]  INFO -- : worker=2 spawned pid=10
+I, [2023-04-12T11:51:55.706790 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T11:51:55.707324 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.708138 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.708380 #11]  INFO -- : worker=3 spawned pid=11
+I, [2023-04-12T11:51:55.710799 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T11:51:55.711652 #12]  INFO -- : worker=4 spawned pid=12
+I, [2023-04-12T11:51:55.712340 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.714851 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.719074 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T11:51:55.724491 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T11:51:55.729552 #14]  INFO -- : worker=6 spawned pid=14
+I, [2023-04-12T11:51:55.735632 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.731359 #1]  INFO -- : master process ready
+I, [2023-04-12T11:51:55.732335 #15]  INFO -- : worker=7 spawned pid=15
+I, [2023-04-12T11:51:55.741557 #15]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:51:55.741116 #13]  INFO -- : worker=5 spawned pid=13
+I, [2023-04-12T11:51:55.783257 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:52:15.806797 #8]  INFO -- : worker=0 ready
+I, [2023-04-12T11:52:15.840354 #11]  INFO -- : worker=3 ready
+I, [2023-04-12T11:52:15.844486 #14]  INFO -- : worker=6 ready
+I, [2023-04-12T11:52:15.925713 #13]  INFO -- : worker=5 ready
+I, [2023-04-12T11:52:15.973441 #12]  INFO -- : worker=4 ready
+I, [2023-04-12T11:52:15.986265 #10]  INFO -- : worker=2 ready
+I, [2023-04-12T11:52:15.996809 #15]  INFO -- : worker=7 ready
+I, [2023-04-12T11:52:16.005833 #9]  INFO -- : worker=1 ready
+192.168.96.1 - - [12/Apr/2023:11:54:18 +0900] "GET / HTTP/1.1" 500 222450 1.8477
+192.168.96.1 - - [12/Apr/2023:11:54:20 +0900] "GET / HTTP/1.1" 500 222450 0.9589
+E, [2023-04-12T11:55:21.948037 #1] ERROR -- : worker=0 PID:8 timeout (61s > 60s), killing
+E, [2023-04-12T11:55:22.039331 #1] ERROR -- : reaped #<Process::Status: pid 8 SIGKILL (signal 9)> worker=0
+I, [2023-04-12T11:55:22.044884 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T11:55:22.058672 #62]  INFO -- : worker=0 spawned pid=62
+I, [2023-04-12T11:55:22.066100 #62]  INFO -- : Refreshing Gem list
+I, [2023-04-12T11:55:24.542802 #62]  INFO -- : worker=0 ready
+192.168.96.1 - - [12/Apr/2023:12:00:39 +0900] "GET / HTTP/1.1" 500 222450 0.3416
+E, [2023-04-12T12:01:40.350258 #1] ERROR -- : worker=3 PID:11 timeout (61s > 60s), killing
+E, [2023-04-12T12:01:40.465123 #1] ERROR -- : reaped #<Process::Status: pid 11 SIGKILL (signal 9)> worker=3
+I, [2023-04-12T12:01:40.467973 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T12:01:40.472988 #84]  INFO -- : worker=3 spawned pid=84
+I, [2023-04-12T12:01:40.474333 #84]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:01:42.714718 #84]  INFO -- : worker=3 ready
+I, [2023-04-12T12:02:09.271404 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=2
+I, [2023-04-12T12:02:09.273130 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=4
+I, [2023-04-12T12:02:09.274018 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=6
+I, [2023-04-12T12:02:09.275002 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2023-04-12T12:02:09.276087 #1]  INFO -- : reaped #<Process::Status: pid 15 exit 0> worker=7
+I, [2023-04-12T12:02:09.276932 #1]  INFO -- : reaped #<Process::Status: pid 62 exit 0> worker=0
+I, [2023-04-12T12:02:09.277723 #1]  INFO -- : reaped #<Process::Status: pid 84 exit 0> worker=3
+I, [2023-04-12T12:02:09.379216 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=5
+I, [2023-04-12T12:02:09.385271 #1]  INFO -- : master complete
+I, [2023-04-12T12:02:16.050966 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T12:02:16.052968 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T12:02:16.053995 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T12:02:16.055724 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T12:02:16.056156 #8]  INFO -- : worker=0 spawned pid=8
+I, [2023-04-12T12:02:16.057380 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T12:02:16.058155 #9]  INFO -- : worker=1 spawned pid=9
+I, [2023-04-12T12:02:16.057456 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.059049 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T12:02:16.059347 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.059501 #10]  INFO -- : worker=2 spawned pid=10
+I, [2023-04-12T12:02:16.063169 #11]  INFO -- : worker=3 spawned pid=11
+I, [2023-04-12T12:02:16.062412 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T12:02:16.063379 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.064584 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.066247 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T12:02:16.072821 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T12:02:16.066574 #12]  INFO -- : worker=4 spawned pid=12
+I, [2023-04-12T12:02:16.075416 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T12:02:16.079818 #1]  INFO -- : master process ready
+I, [2023-04-12T12:02:16.076075 #13]  INFO -- : worker=5 spawned pid=13
+I, [2023-04-12T12:02:16.076967 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.077256 #14]  INFO -- : worker=6 spawned pid=14
+I, [2023-04-12T12:02:16.080400 #15]  INFO -- : worker=7 spawned pid=15
+I, [2023-04-12T12:02:16.088030 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.089135 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:16.090328 #15]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:02:25.772297 #8]  INFO -- : worker=0 ready
+I, [2023-04-12T12:02:25.777133 #12]  INFO -- : worker=4 ready
+I, [2023-04-12T12:02:25.774824 #13]  INFO -- : worker=5 ready
+I, [2023-04-12T12:02:25.774923 #11]  INFO -- : worker=3 ready
+I, [2023-04-12T12:02:25.774941 #14]  INFO -- : worker=6 ready
+I, [2023-04-12T12:02:25.783584 #15]  INFO -- : worker=7 ready
+I, [2023-04-12T12:02:25.781662 #10]  INFO -- : worker=2 ready
+I, [2023-04-12T12:02:25.787093 #9]  INFO -- : worker=1 ready
+192.168.112.1 - - [12/Apr/2023:12:02:27 +0900] "GET / HTTP/1.1" 500 222451 1.5520
+E, [2023-04-12T12:03:26.144596 #1] ERROR -- : worker=4 PID:12 timeout (61s > 60s), killing
+E, [2023-04-12T12:03:26.194994 #1] ERROR -- : reaped #<Process::Status: pid 12 SIGKILL (signal 9)> worker=4
+I, [2023-04-12T12:03:26.197154 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T12:03:26.200497 #59]  INFO -- : worker=4 spawned pid=59
+I, [2023-04-12T12:03:26.202345 #59]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:03:28.317671 #59]  INFO -- : worker=4 ready
+I, [2023-04-12T12:04:32.506225 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=0
+I, [2023-04-12T12:04:32.510342 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2023-04-12T12:04:32.512579 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=2
+I, [2023-04-12T12:04:32.514565 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=3
+I, [2023-04-12T12:04:32.516663 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=5
+I, [2023-04-12T12:04:32.519063 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=6
+I, [2023-04-12T12:04:32.520544 #1]  INFO -- : reaped #<Process::Status: pid 15 exit 0> worker=7
+I, [2023-04-12T12:04:32.522021 #1]  INFO -- : reaped #<Process::Status: pid 59 exit 0> worker=4
+I, [2023-04-12T12:04:32.523419 #1]  INFO -- : master complete
+I, [2023-04-12T12:06:05.065530 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T12:06:05.067362 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T12:06:05.068191 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T12:06:05.070322 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T12:06:05.071404 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T12:06:05.073562 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.073933 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T12:06:05.076946 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T12:06:05.077726 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T12:06:05.079919 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.081214 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T12:06:05.085429 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T12:06:05.081585 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T12:06:05.091551 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T12:06:05.092456 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.093452 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.094846 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T12:06:05.098916 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.096460 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T12:06:05.100168 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T12:06:05.118611 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.116076 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T12:06:05.122288 #1]  INFO -- : master process ready
+I, [2023-04-12T12:06:05.116320 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T12:06:05.125639 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:05.123146 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T12:06:05.156070 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:06:25.237950 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T12:06:25.240114 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T12:06:25.241894 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T12:06:25.245196 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T12:06:25.253644 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T12:06:25.250095 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T12:06:25.270465 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T12:06:25.289854 #8]  INFO -- : worker=1 ready
+192.168.128.1 - - [12/Apr/2023:12:06:27 +0900] "GET / HTTP/1.1" 500 222429 2.0770
+I, [2023-04-12T12:20:57.233683 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T12:20:57.277761 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T12:20:57.279581 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T12:20:57.280522 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T12:20:57.381991 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T12:20:57.383876 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T12:20:57.385838 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T12:20:57.386992 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T12:20:57.413905 #1]  INFO -- : master complete
+I, [2023-04-12T12:24:51.253807 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T12:24:51.257951 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T12:24:51.263264 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T12:24:51.274861 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T12:24:51.275610 #6]  INFO -- : worker=0 spawned pid=6
+I, [2023-04-12T12:24:51.279912 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T12:24:51.280270 #6]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.284144 #7]  INFO -- : worker=1 spawned pid=7
+I, [2023-04-12T12:24:51.283597 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T12:24:51.286775 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.285867 #8]  INFO -- : worker=2 spawned pid=8
+I, [2023-04-12T12:24:51.333931 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.368338 #9]  INFO -- : worker=3 spawned pid=9
+I, [2023-04-12T12:24:51.348772 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T12:24:51.374876 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.380044 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T12:24:51.383144 #10]  INFO -- : worker=4 spawned pid=10
+I, [2023-04-12T12:24:51.409386 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.395139 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T12:24:51.428594 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T12:24:51.396263 #11]  INFO -- : worker=5 spawned pid=11
+I, [2023-04-12T12:24:51.461661 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.431516 #12]  INFO -- : worker=6 spawned pid=12
+I, [2023-04-12T12:24:51.486523 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:24:51.471748 #1]  INFO -- : master process ready
+I, [2023-04-12T12:24:51.484790 #13]  INFO -- : worker=7 spawned pid=13
+I, [2023-04-12T12:24:51.551279 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T12:25:12.706584 #7]  INFO -- : worker=1 ready
+I, [2023-04-12T12:25:12.717395 #10]  INFO -- : worker=4 ready
+I, [2023-04-12T12:25:12.731768 #6]  INFO -- : worker=0 ready
+I, [2023-04-12T12:25:12.751899 #8]  INFO -- : worker=2 ready
+I, [2023-04-12T12:25:12.770208 #13]  INFO -- : worker=7 ready
+I, [2023-04-12T12:25:12.775776 #9]  INFO -- : worker=3 ready
+I, [2023-04-12T12:25:12.780647 #12]  INFO -- : worker=6 ready
+I, [2023-04-12T12:25:12.786299 #11]  INFO -- : worker=5 ready
+192.168.144.1 - - [12/Apr/2023:12:25:15 +0900] "GET / HTTP/1.1" 200 - 2.8371
+I, [2023-04-12T12:26:12.884456 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2023-04-12T12:26:12.960607 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=4
+I, [2023-04-12T12:26:12.962437 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=3
+I, [2023-04-12T12:26:12.965969 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=5
+I, [2023-04-12T12:26:12.969156 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2023-04-12T12:26:12.971124 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=6
+I, [2023-04-12T12:26:12.973317 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=7
+I, [2023-04-12T12:26:13.076342 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=2
+I, [2023-04-12T12:26:13.081089 #1]  INFO -- : master complete
+I, [2023-04-12T13:44:32.519955 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T13:44:32.526038 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T13:44:32.526972 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T13:44:32.528545 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T13:44:32.530112 #8]  INFO -- : worker=0 spawned pid=8
+I, [2023-04-12T13:44:32.531502 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.532990 #9]  INFO -- : worker=1 spawned pid=9
+I, [2023-04-12T13:44:32.531498 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T13:44:32.536073 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T13:44:32.534042 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.555022 #10]  INFO -- : worker=2 spawned pid=10
+I, [2023-04-12T13:44:32.568044 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.572426 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T13:44:32.573223 #11]  INFO -- : worker=3 spawned pid=11
+I, [2023-04-12T13:44:32.576808 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.577245 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T13:44:32.594762 #12]  INFO -- : worker=4 spawned pid=12
+I, [2023-04-12T13:44:32.633766 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.642170 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T13:44:32.642857 #13]  INFO -- : worker=5 spawned pid=13
+I, [2023-04-12T13:44:32.772440 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:32.854773 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T13:44:32.866616 #14]  INFO -- : worker=6 spawned pid=14
+I, [2023-04-12T13:44:33.273044 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:33.578606 #15]  INFO -- : worker=7 spawned pid=15
+I, [2023-04-12T13:44:33.582766 #15]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:44:33.867910 #1]  INFO -- : master process ready
+[Bootsnap::CompileCache] warning: rejecting broken binary
+[Bootsnap::CompileCache] warning: rejecting broken binary
+I, [2023-04-12T13:45:53.844657 #13]  INFO -- : worker=5 ready
+I, [2023-04-12T13:45:53.857232 #8]  INFO -- : worker=0 ready
+I, [2023-04-12T13:45:53.859596 #15]  INFO -- : worker=7 ready
+I, [2023-04-12T13:45:53.898972 #11]  INFO -- : worker=3 ready
+I, [2023-04-12T13:45:53.902062 #10]  INFO -- : worker=2 ready
+I, [2023-04-12T13:45:53.908637 #9]  INFO -- : worker=1 ready
+I, [2023-04-12T13:45:53.922824 #14]  INFO -- : worker=6 ready
+I, [2023-04-12T13:45:53.927659 #12]  INFO -- : worker=4 ready
+192.168.176.1 - - [12/Apr/2023:13:45:53 +0900] "GET / HTTP/1.1" 200 - 0.0597
+192.168.176.1 - - [12/Apr/2023:13:45:53 +0900] "GET / HTTP/1.1" 200 - 0.0824
+I, [2023-04-12T13:46:09.218988 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2023-04-12T13:46:09.231625 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=2
+I, [2023-04-12T13:46:09.238806 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=4
+I, [2023-04-12T13:46:09.241533 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=3
+I, [2023-04-12T13:46:09.243156 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=0
+I, [2023-04-12T13:46:09.244538 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=5
+I, [2023-04-12T13:46:09.246105 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=6
+I, [2023-04-12T13:46:09.247736 #1]  INFO -- : reaped #<Process::Status: pid 15 exit 0> worker=7
+I, [2023-04-12T13:46:09.249991 #1]  INFO -- : master complete
+I, [2023-04-12T13:54:44.612821 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T13:54:44.619672 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T13:54:44.620976 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T13:54:44.623429 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T13:54:44.623557 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T13:54:44.626322 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.626411 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T13:54:44.627638 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T13:54:44.629247 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T13:54:44.629549 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.631469 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T13:54:44.631899 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T13:54:44.632827 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.633645 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T13:54:44.637696 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T13:54:44.644010 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T13:54:44.642760 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.646996 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T13:54:44.658845 #1]  INFO -- : master process ready
+I, [2023-04-12T13:54:44.647374 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T13:54:44.667906 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.648971 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T13:54:44.655238 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T13:54:44.679997 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.663968 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T13:54:44.702149 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:54:44.703713 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:55:10.737834 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T13:55:10.741822 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T13:55:10.743279 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T13:55:10.744363 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T13:55:10.736408 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T13:55:10.753986 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T13:55:10.761529 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T13:55:10.768862 #12]  INFO -- : worker=5 ready
+192.168.208.1 - - [12/Apr/2023:13:55:10 +0900] "GET / HTTP/1.1" 304 - 0.0314
+E, [2023-04-12T13:56:11.771045 #1] ERROR -- : worker=2 PID:9 timeout (61s > 60s), killing
+E, [2023-04-12T13:56:11.861932 #1] ERROR -- : reaped #<Process::Status: pid 9 SIGKILL (signal 9)> worker=2
+I, [2023-04-12T13:56:11.868418 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T13:56:11.897014 #23]  INFO -- : worker=2 spawned pid=23
+I, [2023-04-12T13:56:11.907377 #23]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:56:15.281871 #23]  INFO -- : worker=2 ready
+I, [2023-04-12T13:58:00.911865 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T13:58:00.964197 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T13:58:00.968489 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T13:58:00.971263 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T13:58:00.974006 #1]  INFO -- : reaped #<Process::Status: pid 23 exit 0> worker=2
+I, [2023-04-12T13:58:01.076413 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T13:58:01.078090 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T13:58:01.079416 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T13:58:01.081235 #1]  INFO -- : master complete
+I, [2023-04-12T13:59:05.927999 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T13:59:05.931066 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T13:59:05.932384 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T13:59:05.935254 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T13:59:05.935763 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T13:59:05.937986 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.938137 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T13:59:05.939097 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T13:59:05.941139 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T13:59:05.941682 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.942665 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T13:59:05.944935 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.945923 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T13:59:05.947717 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.945014 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T13:59:05.953390 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T13:59:05.957794 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T13:59:05.954991 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T13:59:05.958997 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T13:59:05.961975 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T13:59:05.964137 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T13:59:05.986452 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.966665 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.971379 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:05.977657 #1]  INFO -- : master process ready
+I, [2023-04-12T13:59:05.978203 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T13:59:06.023488 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T13:59:17.297112 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T13:59:17.298649 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T13:59:17.300808 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T13:59:17.304766 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T13:59:17.301696 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T13:59:17.302800 #9]  INFO -- : worker=2 ready
+I, [2023-04-12T13:59:17.304034 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T13:59:17.311302 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T14:02:48.038751 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T14:02:48.041098 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T14:02:48.042602 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T14:02:48.043861 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T14:02:48.044671 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T14:02:48.045713 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T14:02:48.047891 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T14:02:48.149805 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T14:02:48.154133 #1]  INFO -- : master complete
+I, [2023-04-12T14:06:48.163014 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T14:06:48.166420 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T14:06:48.168085 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T14:06:48.171842 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T14:06:48.172972 #6]  INFO -- : worker=0 spawned pid=6
+I, [2023-04-12T14:06:48.175270 #6]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.176980 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T14:06:48.178654 #7]  INFO -- : worker=1 spawned pid=7
+I, [2023-04-12T14:06:48.179921 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T14:06:48.183397 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T14:06:48.184266 #9]  INFO -- : worker=3 spawned pid=9
+I, [2023-04-12T14:06:48.185404 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.181471 #8]  INFO -- : worker=2 spawned pid=8
+I, [2023-04-12T14:06:48.181464 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.186595 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T14:06:48.187141 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.187852 #10]  INFO -- : worker=4 spawned pid=10
+I, [2023-04-12T14:06:48.192322 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.197602 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T14:06:48.198253 #11]  INFO -- : worker=5 spawned pid=11
+I, [2023-04-12T14:06:48.206225 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.205073 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T14:06:48.215932 #1]  INFO -- : master process ready
+I, [2023-04-12T14:06:48.208703 #12]  INFO -- : worker=6 spawned pid=12
+I, [2023-04-12T14:06:48.245820 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:06:48.219294 #13]  INFO -- : worker=7 spawned pid=13
+I, [2023-04-12T14:06:48.250498 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:08:12.770765 #7]  INFO -- : worker=1 ready
+I, [2023-04-12T14:08:12.821020 #10]  INFO -- : worker=4 ready
+I, [2023-04-12T14:08:12.980277 #13]  INFO -- : worker=7 ready
+I, [2023-04-12T14:08:13.056286 #6]  INFO -- : worker=0 ready
+I, [2023-04-12T14:08:13.069597 #8]  INFO -- : worker=2 ready
+I, [2023-04-12T14:08:13.073229 #12]  INFO -- : worker=6 ready
+I, [2023-04-12T14:08:13.102320 #9]  INFO -- : worker=3 ready
+I, [2023-04-12T14:08:13.102483 #11]  INFO -- : worker=5 ready
+192.168.240.1 - - [12/Apr/2023:14:09:33 +0900] "GET / HTTP/1.1" 304 - 0.1665
+E, [2023-04-12T14:10:34.362559 #1] ERROR -- : worker=1 PID:7 timeout (61s > 60s), killing
+E, [2023-04-12T14:10:34.882040 #1] ERROR -- : reaped #<Process::Status: pid 7 SIGKILL (signal 9)> worker=1
+I, [2023-04-12T14:10:34.887849 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T14:10:34.908397 #92]  INFO -- : worker=1 spawned pid=92
+I, [2023-04-12T14:10:34.917822 #92]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:10:40.220230 #92]  INFO -- : worker=1 ready
+I, [2023-04-12T14:11:52.556177 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2023-04-12T14:11:52.592287 #1]  INFO -- : reaped #<Process::Status: pid 92 exit 0> worker=1
+I, [2023-04-12T14:11:52.797225 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=2
+I, [2023-04-12T14:11:52.799296 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=5
+I, [2023-04-12T14:11:52.800876 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=6
+I, [2023-04-12T14:11:52.802217 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=7
+I, [2023-04-12T14:11:52.905156 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=3
+I, [2023-04-12T14:11:52.906777 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=4
+I, [2023-04-12T14:11:52.908037 #1]  INFO -- : master complete
+I, [2023-04-12T14:24:07.819335 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T14:24:07.868133 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T14:24:07.870023 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T14:24:07.878489 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T14:24:07.880617 #6]  INFO -- : worker=0 spawned pid=6
+I, [2023-04-12T14:24:07.882239 #6]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:07.882793 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T14:24:07.920621 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T14:24:07.938165 #9]  INFO -- : worker=3 spawned pid=9
+I, [2023-04-12T14:24:07.939874 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T14:24:07.940604 #8]  INFO -- : worker=2 spawned pid=8
+I, [2023-04-12T14:24:07.946756 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:07.947956 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:07.949026 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T14:24:07.977953 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T14:24:07.950085 #10]  INFO -- : worker=4 spawned pid=10
+I, [2023-04-12T14:24:07.952163 #7]  INFO -- : worker=1 spawned pid=7
+I, [2023-04-12T14:24:08.004204 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:07.978626 #11]  INFO -- : worker=5 spawned pid=11
+I, [2023-04-12T14:24:08.004542 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:08.061301 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T14:24:08.062945 #12]  INFO -- : worker=6 spawned pid=12
+I, [2023-04-12T14:24:08.064366 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:08.085633 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:24:08.161751 #1]  INFO -- : master process ready
+I, [2023-04-12T14:24:08.163066 #13]  INFO -- : worker=7 spawned pid=13
+I, [2023-04-12T14:24:08.438014 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:25:35.000194 #12]  INFO -- : worker=6 ready
+I, [2023-04-12T14:25:35.005382 #7]  INFO -- : worker=1 ready
+I, [2023-04-12T14:25:35.017218 #10]  INFO -- : worker=4 ready
+I, [2023-04-12T14:25:35.026234 #9]  INFO -- : worker=3 ready
+I, [2023-04-12T14:25:35.037430 #11]  INFO -- : worker=5 ready
+I, [2023-04-12T14:25:35.049844 #13]  INFO -- : worker=7 ready
+I, [2023-04-12T14:25:35.037970 #6]  INFO -- : worker=0 ready
+I, [2023-04-12T14:25:35.053642 #8]  INFO -- : worker=2 ready
+172.18.0.1 - - [12/Apr/2023:14:25:35 +0900] "GET / HTTP/1.1" 304 - 0.1009
+I, [2023-04-12T14:27:51.676758 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2023-04-12T14:27:51.792215 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=2
+I, [2023-04-12T14:27:51.899993 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2023-04-12T14:27:51.902065 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=3
+I, [2023-04-12T14:27:51.903787 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=4
+I, [2023-04-12T14:27:51.907115 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=5
+I, [2023-04-12T14:27:51.908415 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=6
+I, [2023-04-12T14:27:51.910111 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=7
+I, [2023-04-12T14:27:51.921244 #1]  INFO -- : master complete
+I, [2023-04-12T14:31:18.009658 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-04-12T14:31:18.018407 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-04-12T14:31:18.020203 #1]  INFO -- : worker=0 spawning...
+I, [2023-04-12T14:31:18.022117 #1]  INFO -- : worker=1 spawning...
+I, [2023-04-12T14:31:18.022630 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-04-12T14:31:18.025658 #7]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.027303 #1]  INFO -- : worker=2 spawning...
+I, [2023-04-12T14:31:18.028081 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-04-12T14:31:18.059356 #8]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.057367 #1]  INFO -- : worker=3 spawning...
+I, [2023-04-12T14:31:18.058653 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-04-12T14:31:18.087089 #9]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.087832 #1]  INFO -- : worker=4 spawning...
+I, [2023-04-12T14:31:18.090136 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-04-12T14:31:18.094410 #1]  INFO -- : worker=5 spawning...
+I, [2023-04-12T14:31:18.127151 #1]  INFO -- : worker=6 spawning...
+I, [2023-04-12T14:31:18.131722 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-04-12T14:31:18.095864 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-04-12T14:31:18.158758 #11]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.121345 #10]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.133910 #1]  INFO -- : worker=7 spawning...
+I, [2023-04-12T14:31:18.140194 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-04-12T14:31:18.216799 #13]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.149715 #12]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:31:18.223230 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-04-12T14:31:18.197581 #1]  INFO -- : master process ready
+I, [2023-04-12T14:31:18.271644 #14]  INFO -- : Refreshing Gem list
+I, [2023-04-12T14:32:00.578688 #14]  INFO -- : worker=7 ready
+I, [2023-04-12T14:32:00.578831 #10]  INFO -- : worker=3 ready
+I, [2023-04-12T14:32:00.579221 #7]  INFO -- : worker=0 ready
+I, [2023-04-12T14:32:00.580946 #11]  INFO -- : worker=4 ready
+I, [2023-04-12T14:32:00.581207 #12]  INFO -- : worker=5 ready
+I, [2023-04-12T14:32:00.581605 #13]  INFO -- : worker=6 ready
+I, [2023-04-12T14:32:00.597940 #8]  INFO -- : worker=1 ready
+I, [2023-04-12T14:32:00.600903 #9]  INFO -- : worker=2 ready
+172.19.0.1 - - [12/Apr/2023:14:32:00 +0900] "GET / HTTP/1.1" 304 - 0.0428
+127.0.0.1 - - [12/Apr/2023:14:32:29 +0900] "GET / HTTP/1.0" 200 13 0.0154
+127.0.0.1 - - [12/Apr/2023:14:32:29 +0900] "GET /404 HTTP/1.0" 404 1722 0.0158
+127.0.0.1 - - [12/Apr/2023:14:32:31 +0900] "GET / HTTP/1.0" 304 - 0.0280
+127.0.0.1 - - [12/Apr/2023:14:32:32 +0900] "GET / HTTP/1.0" 304 - 0.0386
+I, [2023-04-12T14:33:45.510669 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-04-12T14:33:45.537305 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-04-12T14:33:45.540716 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-04-12T14:33:45.542680 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-04-12T14:33:45.546055 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-04-12T14:33:45.647765 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-04-12T14:33:45.649677 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-04-12T14:33:45.652096 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-04-12T14:33:45.656947 #1]  INFO -- : master complete
+I, [2023-07-20T14:35:17.772603 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-20T14:35:17.785264 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-20T14:35:17.789118 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-20T14:35:17.819311 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-20T14:35:17.820329 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-20T14:35:17.825434 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.844366 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-20T14:35:17.863425 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-20T14:35:17.864855 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-20T14:35:17.871712 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.877398 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-20T14:35:17.881951 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-20T14:35:17.892246 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-20T14:35:17.895843 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.903301 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-20T14:35:17.933952 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.928938 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-20T14:35:17.934584 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-20T14:35:17.944218 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.971669 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-20T14:35:17.990303 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:17.990807 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-20T14:35:18.016152 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-20T14:35:18.134782 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:35:18.144245 #1]  INFO -- : master process ready
+I, [2023-07-20T14:35:18.258956 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-20T14:35:18.474282 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-20T14:36:07.750519 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-20T14:36:07.759580 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-20T14:36:07.761091 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-20T14:36:07.763348 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-20T14:36:07.766089 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-20T14:36:07.768464 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-20T14:36:07.771237 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-20T14:36:07.773080 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-20T14:36:07.775721 #1]  INFO -- : master complete
+I, [2023-07-22T08:49:44.274344 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-22T08:49:44.276065 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-22T08:49:44.276965 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-22T08:49:44.278941 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-22T08:49:44.279357 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-22T08:49:44.281265 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.283041 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-22T08:49:44.282655 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-22T08:49:44.284496 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.286837 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-22T08:49:44.289087 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-22T08:49:44.290220 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-22T08:49:44.291390 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-22T08:49:44.289551 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-22T08:49:44.291500 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.291721 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-22T08:49:44.293905 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.293898 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-22T08:49:44.304319 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-22T08:49:44.294522 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-22T08:49:44.296455 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.305026 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-22T08:49:44.307537 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.310434 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:49:44.313721 #1]  INFO -- : master process ready
+I, [2023-07-22T08:49:44.316598 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-22T08:49:44.317834 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-22T08:50:09.571689 #11]  INFO -- : worker=4 ready
+I, [2023-07-22T08:50:09.585134 #8]  INFO -- : worker=1 ready
+I, [2023-07-22T08:50:09.592882 #13]  INFO -- : worker=6 ready
+I, [2023-07-22T08:50:09.593593 #7]  INFO -- : worker=0 ready
+I, [2023-07-22T08:50:09.601312 #10]  INFO -- : worker=3 ready
+127.0.0.1 - - [22/Jul/2023:08:50:09 +0900] "GET /404 HTTP/1.0" 404 1722 0.0265
+I, [2023-07-22T08:50:09.604867 #14]  INFO -- : worker=7 ready
+I, [2023-07-22T08:50:09.615186 #9]  INFO -- : worker=2 ready
+I, [2023-07-22T08:50:09.615987 #12]  INFO -- : worker=5 ready
+127.0.0.1 - - [22/Jul/2023:08:50:09 +0900] "GET / HTTP/1.0" 200 13 0.0393
+I, [2023-07-22T08:50:23.918937 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-22T08:50:23.924433 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-22T08:50:23.927343 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-22T08:50:23.930834 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-22T08:50:23.936045 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-22T08:50:23.938324 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-22T08:50:23.940528 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-22T08:50:23.942229 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-22T08:50:23.944435 #1]  INFO -- : master complete
+I, [2023-07-22T17:30:08.740481 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-22T17:30:08.746826 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-22T17:30:08.749978 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-22T17:30:08.754948 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-22T17:30:08.758955 #6]  INFO -- : worker=0 spawned pid=6
+I, [2023-07-22T17:30:08.761825 #6]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.765549 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-22T17:30:08.766762 #7]  INFO -- : worker=1 spawned pid=7
+I, [2023-07-22T17:30:08.770681 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.774417 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-22T17:30:08.783396 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-22T17:30:08.783860 #8]  INFO -- : worker=2 spawned pid=8
+I, [2023-07-22T17:30:08.787109 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.787331 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-22T17:30:08.801498 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-22T17:30:08.787643 #9]  INFO -- : worker=3 spawned pid=9
+I, [2023-07-22T17:30:08.792505 #10]  INFO -- : worker=4 spawned pid=10
+I, [2023-07-22T17:30:08.807682 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.804819 #11]  INFO -- : worker=5 spawned pid=11
+I, [2023-07-22T17:30:08.823676 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.806026 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-22T17:30:08.806583 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.813274 #12]  INFO -- : worker=6 spawned pid=12
+I, [2023-07-22T17:30:08.854691 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:08.839824 #1]  INFO -- : master process ready
+I, [2023-07-22T17:30:08.842718 #13]  INFO -- : worker=7 spawned pid=13
+I, [2023-07-22T17:30:08.942542 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-22T17:30:37.953433 #10]  INFO -- : worker=4 ready
+I, [2023-07-22T17:30:37.963928 #11]  INFO -- : worker=5 ready
+I, [2023-07-22T17:30:37.959962 #12]  INFO -- : worker=6 ready
+I, [2023-07-22T17:30:37.968301 #8]  INFO -- : worker=2 ready
+I, [2023-07-22T17:30:37.968860 #7]  INFO -- : worker=1 ready
+I, [2023-07-22T17:30:37.972630 #9]  INFO -- : worker=3 ready
+I, [2023-07-22T17:30:37.974891 #13]  INFO -- : worker=7 ready
+I, [2023-07-22T17:30:37.976921 #6]  INFO -- : worker=0 ready
+127.0.0.1 - - [22/Jul/2023:17:30:38 +0900] "GET / HTTP/1.0" 304 - 0.0603
+I, [2023-07-22T20:15:42.498760 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2023-07-22T20:15:42.510014 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2023-07-22T20:15:42.511814 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=2
+I, [2023-07-22T20:15:42.512804 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=3
+I, [2023-07-22T20:15:42.513799 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=4
+I, [2023-07-22T20:15:42.514732 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=5
+I, [2023-07-22T20:15:42.516113 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=6
+I, [2023-07-22T20:15:42.517519 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=7
+I, [2023-07-22T20:15:42.522455 #1]  INFO -- : master complete
+I, [2023-07-22T20:31:20.738160 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-22T20:31:20.743132 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-22T20:31:20.745129 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-22T20:31:20.747648 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-22T20:31:20.748739 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-22T20:31:20.752641 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-22T20:31:20.750783 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-22T20:31:20.753181 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.758025 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-22T20:31:20.754109 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.761913 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-22T20:31:20.764577 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.762511 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-22T20:31:20.762234 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-22T20:31:20.769208 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.772286 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-22T20:31:20.775688 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-22T20:31:20.780523 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-22T20:31:20.781495 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-22T20:31:20.785763 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.783908 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-22T20:31:20.795102 #1]  INFO -- : master process ready
+I, [2023-07-22T20:31:20.797656 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-22T20:31:20.801706 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-22T20:31:20.805232 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.827740 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:31:20.830710 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:32:23.405827 #10]  INFO -- : worker=3 ready
+I, [2023-07-22T20:32:23.411309 #13]  INFO -- : worker=6 ready
+I, [2023-07-22T20:32:23.427928 #7]  INFO -- : worker=0 ready
+I, [2023-07-22T20:32:23.494745 #14]  INFO -- : worker=7 ready
+I, [2023-07-22T20:32:23.498269 #9]  INFO -- : worker=2 ready
+I, [2023-07-22T20:32:23.531430 #8]  INFO -- : worker=1 ready
+I, [2023-07-22T20:32:23.534966 #12]  INFO -- : worker=5 ready
+I, [2023-07-22T20:32:23.547333 #11]  INFO -- : worker=4 ready
+I, [2023-07-22T20:39:27.537172 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-22T20:39:27.541414 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-22T20:39:27.542802 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-22T20:39:27.544274 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-22T20:39:27.545232 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-22T20:39:27.547061 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-22T20:39:27.548342 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-22T20:39:27.549989 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-22T20:39:27.552216 #1]  INFO -- : master complete
+I, [2023-07-22T20:39:38.177643 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-22T20:39:38.179342 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-22T20:39:38.180661 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-22T20:39:38.182927 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-22T20:39:38.183377 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-22T20:39:38.185358 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-22T20:39:38.185479 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.185844 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-22T20:39:38.188652 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.187292 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-22T20:39:38.189058 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-22T20:39:38.193763 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-22T20:39:38.194249 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-22T20:39:38.194713 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.195641 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.197986 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-22T20:39:38.200020 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-22T20:39:38.201546 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.202831 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-22T20:39:38.207839 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-22T20:39:38.208022 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-22T20:39:38.210233 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.211570 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-22T20:39:38.234926 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:38.228799 #1]  INFO -- : master process ready
+I, [2023-07-22T20:39:38.237584 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-22T20:39:38.242398 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-22T20:39:50.761907 #8]  INFO -- : worker=1 ready
+I, [2023-07-22T20:39:50.769923 #14]  INFO -- : worker=7 ready
+I, [2023-07-22T20:39:50.772877 #11]  INFO -- : worker=4 ready
+I, [2023-07-22T20:39:50.774165 #9]  INFO -- : worker=2 ready
+I, [2023-07-22T20:39:50.793673 #12]  INFO -- : worker=5 ready
+I, [2023-07-22T20:39:50.796169 #10]  INFO -- : worker=3 ready
+I, [2023-07-22T20:39:50.797147 #7]  INFO -- : worker=0 ready
+I, [2023-07-22T20:39:50.798619 #13]  INFO -- : worker=6 ready
+I, [2023-07-22T20:39:52.144373 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-22T20:39:52.147647 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-22T20:39:52.152320 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-22T20:39:52.157660 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-22T20:39:52.159881 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-22T20:39:52.161960 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-22T20:39:52.163470 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-22T20:39:52.165097 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-22T20:39:52.167070 #1]  INFO -- : master complete
+I, [2023-07-22T21:53:02.476497 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-22T21:53:02.478365 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-22T21:53:02.479389 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-22T21:53:02.481221 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-22T21:53:02.482116 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-22T21:53:02.483321 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-22T21:53:02.483826 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-22T21:53:02.484396 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.486211 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-22T21:53:02.486642 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-22T21:53:02.486727 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.489914 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-22T21:53:02.489296 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.490745 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-22T21:53:02.494203 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.494063 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-22T21:53:02.495303 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-22T21:53:02.498398 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.500555 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-22T21:53:02.506234 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-22T21:53:02.501660 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-22T21:53:02.507565 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-22T21:53:02.509115 #1]  INFO -- : master process ready
+I, [2023-07-22T21:53:02.509634 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-22T21:53:02.518942 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.510695 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:02.517270 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-22T21:53:39.947187 #9]  INFO -- : worker=2 ready
+I, [2023-07-22T21:53:39.953081 #12]  INFO -- : worker=5 ready
+I, [2023-07-22T21:53:39.963090 #10]  INFO -- : worker=3 ready
+I, [2023-07-22T21:53:39.963864 #11]  INFO -- : worker=4 ready
+I, [2023-07-22T21:53:39.990813 #13]  INFO -- : worker=6 ready
+I, [2023-07-22T21:53:40.002830 #8]  INFO -- : worker=1 ready
+I, [2023-07-22T21:53:40.011521 #14]  INFO -- : worker=7 ready
+I, [2023-07-22T21:53:40.017494 #7]  INFO -- : worker=0 ready
+127.0.0.1 - - [22/Jul/2023:21:53:40 +0900] "GET / HTTP/1.0" 304 - 0.0554
+I, [2023-07-22T21:54:02.888139 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-22T21:54:02.893381 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-22T21:54:02.896365 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-22T21:54:02.898336 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-22T21:54:02.899915 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-22T21:54:02.902290 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-22T21:54:02.904357 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-22T21:54:02.906474 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-22T21:54:02.912632 #1]  INFO -- : master complete
+I, [2023-07-23T09:35:02.719918 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-23T09:35:02.723384 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-23T09:35:02.724443 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-23T09:35:02.727044 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-23T09:35:02.728701 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-23T09:35:02.730152 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.731612 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-23T09:35:02.735808 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-23T09:35:02.734677 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-23T09:35:02.738981 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.736562 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-23T09:35:02.740674 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-23T09:35:02.745569 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-23T09:35:02.745795 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.751478 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.752512 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-23T09:35:02.768400 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-23T09:35:02.771027 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-23T09:35:02.795163 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-23T09:35:02.772883 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-23T09:35:02.817743 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.792686 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.800766 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-23T09:35:02.827126 #1]  INFO -- : master process ready
+I, [2023-07-23T09:35:02.831086 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-23T09:35:02.908444 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:02.896584 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:35:20.515901 #14]  INFO -- : worker=7 ready
+I, [2023-07-23T09:35:20.517372 #7]  INFO -- : worker=0 ready
+I, [2023-07-23T09:35:20.520617 #13]  INFO -- : worker=6 ready
+I, [2023-07-23T09:35:20.519427 #12]  INFO -- : worker=5 ready
+I, [2023-07-23T09:35:20.519525 #8]  INFO -- : worker=1 ready
+I, [2023-07-23T09:35:20.532292 #9]  INFO -- : worker=2 ready
+I, [2023-07-23T09:35:20.540255 #10]  INFO -- : worker=3 ready
+I, [2023-07-23T09:35:20.541613 #11]  INFO -- : worker=4 ready
+I, [2023-07-23T09:36:06.834853 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-23T09:36:06.839513 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-23T09:36:06.841976 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-23T09:36:06.844050 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-23T09:36:06.846216 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-23T09:36:06.847873 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-23T09:36:06.849377 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-23T09:36:06.852067 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-23T09:36:06.854687 #1]  INFO -- : master complete
+I, [2023-07-23T09:36:13.679807 #1]  INFO -- : unlinking existing socket=/var/tmp/unicorn.sock
+I, [2023-07-23T09:36:13.680946 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-23T09:36:13.681932 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-23T09:36:13.682778 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-23T09:36:13.684717 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-23T09:36:13.685467 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-23T09:36:13.686582 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-23T09:36:13.686558 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.687561 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-23T09:36:13.689100 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-23T09:36:13.689472 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-23T09:36:13.692084 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.690313 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.693894 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-23T09:36:13.694084 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-23T09:36:13.696019 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.701263 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-23T09:36:13.702188 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-23T09:36:13.707735 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.708239 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-23T09:36:13.708908 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-23T09:36:13.728775 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-23T09:36:13.752825 #1]  INFO -- : master process ready
+I, [2023-07-23T09:36:13.730469 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.730664 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-23T09:36:13.755446 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-23T09:36:13.796833 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:13.762542 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-23T09:36:26.035362 #12]  INFO -- : worker=5 ready
+I, [2023-07-23T09:36:26.035350 #7]  INFO -- : worker=0 ready
+I, [2023-07-23T09:36:26.037237 #13]  INFO -- : worker=6 ready
+I, [2023-07-23T09:36:26.039577 #14]  INFO -- : worker=7 ready
+I, [2023-07-23T09:36:26.039974 #9]  INFO -- : worker=2 ready
+I, [2023-07-23T09:36:26.041386 #8]  INFO -- : worker=1 ready
+I, [2023-07-23T09:36:26.042256 #10]  INFO -- : worker=3 ready
+I, [2023-07-23T09:36:26.043253 #11]  INFO -- : worker=4 ready
+127.0.0.1 - - [23/Jul/2023:10:04:51 +0900] "GET / HTTP/1.0" 304 - 0.0837
+127.0.0.1 - - [23/Jul/2023:10:04:56 +0900] "GET / HTTP/1.0" 304 - 0.0114
+I, [2023-07-23T10:31:18.609929 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-23T10:31:18.616071 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-23T10:31:18.618559 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-23T10:31:18.621365 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-23T10:31:18.623235 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-23T10:31:18.625527 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-23T10:31:18.627562 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-23T10:31:18.629111 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-23T10:31:18.631134 #1]  INFO -- : master complete
+I, [2023-07-23T10:31:29.462817 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-23T10:31:29.465554 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-23T10:31:29.466543 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-23T10:31:29.468623 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-23T10:31:29.469294 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-23T10:31:29.470381 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-23T10:31:29.470499 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.471424 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-23T10:31:29.472258 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-23T10:31:29.473798 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.474657 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-23T10:31:29.476287 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.475254 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-23T10:31:29.478733 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-23T10:31:29.481789 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-23T10:31:29.482248 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-23T10:31:29.485246 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-23T10:31:29.486781 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.486946 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-23T10:31:29.487339 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-23T10:31:29.487626 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-23T10:31:29.494043 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.488227 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.492576 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:29.494312 #1]  INFO -- : master process ready
+I, [2023-07-23T10:31:29.495012 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-23T10:31:29.505506 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:31:42.651753 #7]  INFO -- : worker=0 ready
+I, [2023-07-23T10:31:42.654775 #8]  INFO -- : worker=1 ready
+I, [2023-07-23T10:31:42.668143 #11]  INFO -- : worker=4 ready
+I, [2023-07-23T10:31:42.671578 #12]  INFO -- : worker=5 ready
+I, [2023-07-23T10:31:42.681531 #10]  INFO -- : worker=3 ready
+I, [2023-07-23T10:31:42.695269 #14]  INFO -- : worker=7 ready
+I, [2023-07-23T10:31:42.696060 #9]  INFO -- : worker=2 ready
+I, [2023-07-23T10:31:42.707225 #13]  INFO -- : worker=6 ready
+127.0.0.1 - - [23/Jul/2023:10:31:42 +0900] "GET / HTTP/1.0" 304 - 0.0537
+I, [2023-07-23T10:31:58.404578 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-23T10:31:58.411096 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-23T10:31:58.413714 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-23T10:31:58.415968 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-23T10:31:58.418013 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-23T10:31:58.419832 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-23T10:31:58.421612 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-23T10:31:58.423551 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-23T10:31:58.424971 #1]  INFO -- : master complete
+I, [2023-07-23T10:34:59.478042 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-23T10:34:59.483653 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-23T10:34:59.486024 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-23T10:34:59.501368 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-23T10:34:59.506325 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-23T10:34:59.506012 #6]  INFO -- : worker=0 spawned pid=6
+I, [2023-07-23T10:34:59.512189 #6]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.512419 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-23T10:34:59.524857 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-23T10:34:59.513008 #7]  INFO -- : worker=1 spawned pid=7
+I, [2023-07-23T10:34:59.537189 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.515894 #8]  INFO -- : worker=2 spawned pid=8
+I, [2023-07-23T10:34:59.531412 #9]  INFO -- : worker=3 spawned pid=9
+I, [2023-07-23T10:34:59.550081 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.535032 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-23T10:34:59.540335 #10]  INFO -- : worker=4 spawned pid=10
+I, [2023-07-23T10:34:59.565369 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.550708 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.638371 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-23T10:34:59.648513 #11]  INFO -- : worker=5 spawned pid=11
+I, [2023-07-23T10:34:59.663477 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-23T10:34:59.668392 #12]  INFO -- : worker=6 spawned pid=12
+I, [2023-07-23T10:34:59.693411 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.836654 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:34:59.849516 #1]  INFO -- : master process ready
+I, [2023-07-23T10:34:59.859061 #13]  INFO -- : worker=7 spawned pid=13
+I, [2023-07-23T10:34:59.960671 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:35:28.131681 #7]  INFO -- : worker=1 ready
+I, [2023-07-23T10:35:28.126251 #8]  INFO -- : worker=2 ready
+I, [2023-07-23T10:35:28.119864 #11]  INFO -- : worker=5 ready
+I, [2023-07-23T10:35:28.147787 #10]  INFO -- : worker=4 ready
+I, [2023-07-23T10:35:28.150783 #9]  INFO -- : worker=3 ready
+I, [2023-07-23T10:35:28.164647 #13]  INFO -- : worker=7 ready
+I, [2023-07-23T10:35:28.174949 #6]  INFO -- : worker=0 ready
+I, [2023-07-23T10:35:28.176529 #12]  INFO -- : worker=6 ready
+127.0.0.1 - - [23/Jul/2023:10:35:28 +0900] "GET / HTTP/1.0" 200 13 0.0564
+I, [2023-07-23T10:35:41.981618 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2023-07-23T10:35:41.984735 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2023-07-23T10:35:41.986657 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=2
+I, [2023-07-23T10:35:41.987801 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=3
+I, [2023-07-23T10:35:41.989257 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=4
+I, [2023-07-23T10:35:41.990554 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=5
+I, [2023-07-23T10:35:41.992090 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=6
+I, [2023-07-23T10:35:41.993876 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=7
+I, [2023-07-23T10:35:41.996408 #1]  INFO -- : master complete
+I, [2023-07-23T10:46:47.769494 #1]  INFO -- : listening on addr=/var/tmp/unicorn.sock fd=7
+I, [2023-07-23T10:46:47.772348 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2023-07-23T10:46:47.773258 #1]  INFO -- : worker=0 spawning...
+I, [2023-07-23T10:46:47.775334 #1]  INFO -- : worker=1 spawning...
+I, [2023-07-23T10:46:47.775859 #7]  INFO -- : worker=0 spawned pid=7
+I, [2023-07-23T10:46:47.777527 #1]  INFO -- : worker=2 spawning...
+I, [2023-07-23T10:46:47.777716 #8]  INFO -- : worker=1 spawned pid=8
+I, [2023-07-23T10:46:47.778547 #7]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.780340 #8]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.780674 #1]  INFO -- : worker=3 spawning...
+I, [2023-07-23T10:46:47.780970 #9]  INFO -- : worker=2 spawned pid=9
+I, [2023-07-23T10:46:47.784530 #1]  INFO -- : worker=4 spawning...
+I, [2023-07-23T10:46:47.787711 #1]  INFO -- : worker=5 spawning...
+I, [2023-07-23T10:46:47.793285 #1]  INFO -- : worker=6 spawning...
+I, [2023-07-23T10:46:47.795772 #12]  INFO -- : worker=5 spawned pid=12
+I, [2023-07-23T10:46:47.784907 #9]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.785121 #10]  INFO -- : worker=3 spawned pid=10
+I, [2023-07-23T10:46:47.799717 #10]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.789489 #11]  INFO -- : worker=4 spawned pid=11
+I, [2023-07-23T10:46:47.803747 #11]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.796372 #1]  INFO -- : worker=7 spawning...
+I, [2023-07-23T10:46:47.797200 #13]  INFO -- : worker=6 spawned pid=13
+I, [2023-07-23T10:46:47.821191 #13]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.798263 #12]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:46:47.822943 #1]  INFO -- : master process ready
+I, [2023-07-23T10:46:47.824306 #14]  INFO -- : worker=7 spawned pid=14
+I, [2023-07-23T10:46:47.842406 #14]  INFO -- : Refreshing Gem list
+I, [2023-07-23T10:47:01.151553 #13]  INFO -- : worker=6 ready
+I, [2023-07-23T10:47:01.152340 #10]  INFO -- : worker=3 ready
+I, [2023-07-23T10:47:01.162044 #12]  INFO -- : worker=5 ready
+I, [2023-07-23T10:47:01.163959 #11]  INFO -- : worker=4 ready
+I, [2023-07-23T10:47:01.167641 #14]  INFO -- : worker=7 ready
+I, [2023-07-23T10:47:01.166159 #7]  INFO -- : worker=0 ready
+I, [2023-07-23T10:47:01.170984 #8]  INFO -- : worker=1 ready
+I, [2023-07-23T10:47:01.171567 #9]  INFO -- : worker=2 ready
+I, [2023-07-23T10:47:31.895681 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=0
+I, [2023-07-23T10:47:31.898244 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2023-07-23T10:47:31.899960 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=2
+I, [2023-07-23T10:47:31.901659 #1]  INFO -- : reaped #<Process::Status: pid 10 exit 0> worker=3
+I, [2023-07-23T10:47:31.903765 #1]  INFO -- : reaped #<Process::Status: pid 11 exit 0> worker=4
+I, [2023-07-23T10:47:31.905629 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=5
+I, [2023-07-23T10:47:31.906615 #1]  INFO -- : reaped #<Process::Status: pid 13 exit 0> worker=6
+I, [2023-07-23T10:47:31.907739 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=7
+I, [2023-07-23T10:47:31.909061 #1]  INFO -- : master complete

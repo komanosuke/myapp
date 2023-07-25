@@ -78,18 +78,19 @@ jobs:
       - run:
           name: Terraform Init
           command: |
-            cd myapp/terraform
+            cd ~/project/terraform
             terraform init
       - run:
           name: Terraform Plan
           command: |
-            cd myapp/terraform
+            cd ~/project/terraform
             terraform plan
       - run:
           name: Terraform Apply
           command: |
-            cd myapp/terraform
+            cd ~/project/terraform
             terraform apply -auto-approve
+
 
 
 workflows:

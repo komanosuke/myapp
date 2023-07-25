@@ -1,6 +1,6 @@
 node_modules
 terraform/.terraform/
-*.tfstate　# 本当はignoreしないといけない
-*.tfstate.backup
-*.tfplan
+# *.tfstate　# 本当はignoreしないといけない
+# *.tfstate.backup
+# *.tfplan
 config/master.key

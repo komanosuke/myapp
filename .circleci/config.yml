@@ -77,13 +77,20 @@ jobs:
       - checkout
       - run:
           name: Terraform Init
-          command: terraform init
+          command: |
+            cd myapp/terraform
+            terraform init
       - run:
           name: Terraform Plan
-          command: terraform plan
+          command: |
+            cd myapp/terraform
+            terraform plan
       - run:
           name: Terraform Apply
-          command: terraform apply -auto-approve
+          command: |
+            cd myapp/terraform
+            terraform apply -auto-approve
+
 
 workflows:
   version: 2
